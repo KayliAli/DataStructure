@@ -113,8 +113,6 @@ public class Node {
                 }
                 return null; // Kök siliniyorsa null döner
             }
-
-            // DURUM 2: Tek Çocuklu Düğüm (Sağ Çocuk Var)
             else if (root_nd.left == null) {
                 if (parent != null) {
                     if (parent.left == root_nd) parent.left = root_nd.right;
@@ -123,7 +121,6 @@ public class Node {
                 return root_nd.right;
             }
 
-            // DURUM 3: Tek Çocuklu Düğüm (Sol Çocuk Var)
             else if (root_nd.right == null) {
                 if (parent != null) {
                     if (parent.left == root_nd) parent.left = root_nd.left;
@@ -131,8 +128,6 @@ public class Node {
                 }
                 return root_nd.left;
             }
-
-            // DURUM 4: İki Çocuklu Düğüm
             else {
                 // Sağ alt ağacın en küçüğünü bul (Successor)
                 Node tempNode = root_nd.right.min(root_nd.right);
