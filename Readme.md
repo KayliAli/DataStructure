@@ -1,4 +1,4 @@
-# DataStructure
+# DataStructure-Veri Yapıları
 
 # Linked List - Bağlı Liste
 # B++ Tree
