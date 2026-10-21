@@ -1,4 +1,4 @@
-# Veri Yapıları
+# DataStructures-Veri Yapıları
 
 Bu depo, temel veri yapılarının Java ile elle uygulanmış örneklerini ve bazıları için küçük çalıştırma senaryolarını içerir. Proje, veri yapılarını ve temel işlemlerini incelemek/öğrenmek amacıyla hazırlanmıştır; üretim kullanımı için doğrulanmış bir kütüphane değildir.
 
