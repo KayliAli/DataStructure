@@ -59,11 +59,4 @@ java -cp .\out HashTable.AnaSinif
 
 `MinHeapTree.MinHeap` ve `HashTable.KarmaDizi` için şu anda ayrı bir komut satırı örneği bulunmuyor; sınıflar başka bir Java kodundan oluşturulup kullanılabilir.
 
-## Kapsam ve bilinen sınırlamalar
 
-- README'de önceki sürümde yer alan **B++ Tree** başlığına rağmen kaynak kodda B++ ağaç uygulaması bulunmuyor.
-- Örnekler temel algoritma fikirlerini göstermek içindir. Boş yapı, tek eleman, kapasite sınırı ve silme gibi uç durumların tamamı güvenilir biçimde ele alınmış değildir.
-- Özellikle `MinHeap` içindeki kökten eleman çekme ve aşağı doğru heap düzenleme işlemleri sınır kontrolleri açısından geliştirilmelidir.
-- Bağlı listedeki baştan silme, yığından son elemanı çekme ve kuyruktan tek elemanı alma gibi işlemlerde uç durumlarda uç düğüm referanslarının güncellenmesi gerekir.
-- `KarmaDizi` çakışma çözümü uygulamaz; aynı indekse hashlenen bir değer önceki değerin üzerine yazabilir. `KarmaBagliListe` çakışmaları bağlı listede saklama yaklaşımını gösterir.
-- Sınıf/metot adları ve açıklamaların bir bölümü Türkçe, bir bölümü İngilizcedir; bu depo için otomatik test veya paket yöneticisi yapılandırması bulunmuyor.
