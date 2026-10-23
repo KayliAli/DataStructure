@@ -57,6 +57,4 @@ java -cp .\out AVL_Tree.AnaSinif
 java -cp .\out HashTable.AnaSinif
 ```
 
-`MinHeapTree.MinHeap` ve `HashTable.KarmaDizi` için şu anda ayrı bir komut satırı örneği bulunmuyor; sınıflar başka bir Java kodundan oluşturulup kullanılabilir.
-
 
